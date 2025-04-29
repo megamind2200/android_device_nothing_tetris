@@ -470,8 +470,30 @@
     <!-- Whether the device supports Smart Pixels -->
      <bool name="config_supportSmartPixels">true</bool>
 
-</resources>
+<bool
 
-<bool name="config_supportsUdfps">true</bool>
-    <integer name="config_udfps_enrolled_finger_count">1</integer>
-    <integer name="config_udfps_sensor_id">0</integer>
+name="config_supportsConcurrentTouchWhileSt ylusPressed">true</bool>
+
+<bool
+
+name="config_useDevInputEventForAudioJack">
+
+true</bool>
+
+<!-- UDFPS configs -->
+
+<bool
+
+name="config_supportsUdfps">true</bool>
+
+<integer
+
+name="config_udfps_enrolled_finger_count">1
+
+</integer>
+
+<integer
+
+name="config_udfps_sensor_id">0</integer>
+
+</resources>
