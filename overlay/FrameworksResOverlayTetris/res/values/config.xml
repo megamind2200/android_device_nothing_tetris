@@ -471,3 +471,7 @@
      <bool name="config_supportSmartPixels">true</bool>
 
 </resources>
+
+<bool name="config_supportsUdfps">true</bool>
+    <integer name="config_udfps_enrolled_finger_count">1</integer>
+    <integer name="config_udfps_sensor_id">0</integer>
